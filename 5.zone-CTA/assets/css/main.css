@@ -1,0 +1,62 @@
+.container {
+  grid-template-areas: "item1 . . . . . . . . . . . . . . ." "item2 . . . . . . . . . . . . . . ." "item3 . . . . . . . . . . . . . . ."; }
+
+* {
+  outline: 1px dotted black;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-areas: "container";
+  margin-top: 50px;
+  overflow-x: hidden; }
+
+.container {
+  display: grid;
+  grid-template-columns: 100% 0px 0px 0px 0px 0px 0% 0% 0% 0% 0% 0% 0% 0% 0% 0%;
+  grid-template-rows: 100px 100px 100px 0px 0px 0px 0px 0px 0px 0px;
+  grid-gap: 0px;
+  font-family: 'Armata', sans-serif;
+  background-color: white;
+  grid-area: container;
+  height: auto;
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px; }
+
+.list-inline {
+  display: block; }
+
+.list-inline li {
+  display: inline-block; }
+
+.item-1 {
+  grid-area: item1; }
+
+.item-2 {
+  grid-area: item2; }
+
+.item-3 {
+  grid-area: item3; }
+
+.item-4 {
+  grid-area: item4; }
+
+.item-5 {
+  grid-area: item5; }
+
+.item-6 {
+  grid-area: item6; }
+
+.item-7 {
+  grid-area: item7; }
+
+.item-8 {
+  grid-area: item8; }
+
+.item-9 {
+  grid-area: item9; }
+
+/*# sourceMappingURL=main.css.map */

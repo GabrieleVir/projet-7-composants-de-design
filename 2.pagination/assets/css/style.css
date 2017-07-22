@@ -1,0 +1,89 @@
+/*font-weight for all the elements of the container*/
+.container {
+	font-weight: bolder;
+
+}
+
+/*rectangles style*/
+.rectangle {
+    width: 69px;
+    height: 35px;
+    margin-top: 32px;
+    text-align: center;
+    border-radius: 4px;;
+    background-color: #404351;
+}
+
+.no-display {
+	background-color: #E4E4E4;
+}
+
+.rectangle-resize-two-digits-number {
+	width: 80px ;
+}
+
+.current-page {
+	background-color: #5E82EE;
+}
+/*rectangle style ends*/
+
+
+/*position inside numbers and color*/
+.inside-rectangle-first {
+	display: block;
+	margin-top: 10px;
+}
+
+.inside-rectangle {
+    display: block;
+    color: #E4E4E4;
+    margin-top: 10px;
+}
+
+.inside-rectangle-last {
+	display: block;
+	margin-top: 11px;
+}
+
+.no-display{
+	color:black;
+}
+
+
+/*position rectangles*/
+.item-1 {
+	margin-left: 7px;
+}
+
+.item-2 {
+	margin-left: 1px;
+}
+
+.item-3 {
+	margin-left: -3px;
+}
+
+.item-4 {
+	margin-left: -6px;
+}
+
+.item-5 {
+	margin-left: -7px;
+}
+
+.item-6 {
+    margin-left: -8px;
+}
+
+.item-7 {
+	margin-left: -2px;
+}
+
+.item-8 {
+	margin-left: 3px;
+}
+
+.item-9 {
+	margin-left: 7px;
+}
+/*position rectangle ends*/

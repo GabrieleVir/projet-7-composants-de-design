@@ -1,0 +1,158 @@
+//variables for widths of columns grid
+$width-column-1: 100%;
+$width-column-2: 0px;
+$width-column-3: 0px;
+$width-column-4: 0px;
+$width-column-5: 0px;
+$width-column-6: 0px;
+$width-column-7: 0%;
+$width-column-8: 0%;
+$width-column-9: 0%;
+$width-column-10: 0%;
+$width-column-11: 0%;
+$width-column-12: 0%;
+$width-column-13: 0%;
+$width-column-14: 0%;
+$width-column-15: 0%;
+$width-column-16: 0%;
+
+//gutter
+$grid-gutter:0px;
+
+
+//variables for the rows
+$grid-row-height-1 : 100px;
+$grid-row-height-2 : 100px;
+$grid-row-height-3 : 100px;
+$grid-row-height-4 : 0px;
+$grid-row-height-5 : 0px;
+$grid-row-height-6 : 0px;
+$grid-row-height-7 : 0px;
+$grid-row-height-8 : 0px;
+$grid-row-height-9 : 0px;
+$grid-row-height-10 : 0px;
+
+//variables for heights
+$height-container:auto;
+
+//variables for width
+$width-container:100%;
+
+//variables for padding
+$pad-top-container: 0px;
+$pad-right-container: 0px;
+$pad-bottom-container: 0px;
+$pad-left-container: 0px;
+
+//variables for margin
+$margin-top-body:50px;
+
+
+$margin-top-container:0px;
+$margin-right-container: 0px;
+$margin-bottom-container: 0px;
+$margin-left-container: 0px;
+
+
+
+//variables for grid-area-name
+$grid-area-name-item:item;
+
+
+//background-color 
+$background-color-body: white;
+$background-color-container: white;
+
+//For the grid-template-areas 
+.container {
+	grid-template-areas: 
+	"item1 . . . . . . . . . . . . . . ."
+	"item2 . . . . . . . . . . . . . . ."
+	"item3 . . . . . . . . . . . . . . ."
+	;
+}
+//grid-template-areas ends
+
+
+*{
+	outline: 1px dotted black;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+	box-sizing: border-box;
+
+}
+
+body {
+	display:grid;
+	grid-template-columns:$width-container;
+	grid-template-areas:"container";
+	//margin top just for clarity
+	margin-top: $margin-top-body;
+	overflow-x:hidden;
+}
+
+.container {
+	display:grid;
+	grid-template-columns: 
+		$width-column-1
+		$width-column-2
+		$width-column-3
+		$width-column-4
+		$width-column-5
+		$width-column-6
+		$width-column-7
+		$width-column-8
+		$width-column-9
+		$width-column-10
+		$width-column-11
+		$width-column-12
+		$width-column-13
+		$width-column-14
+		$width-column-15
+		$width-column-16
+	;
+	grid-template-rows:
+		$grid-row-height-1 
+		$grid-row-height-2 
+		$grid-row-height-3 
+		$grid-row-height-4 
+		$grid-row-height-5 
+		$grid-row-height-6 
+		$grid-row-height-7 
+		$grid-row-height-8 
+		$grid-row-height-9 
+		$grid-row-height-10 
+	;
+	grid-gap:$grid-gutter;
+	font-family: 'Armata', sans-serif;
+	background-color: $background-color-container;
+	grid-area:container;
+	height: $height-container;
+	padding:
+	$pad-top-container
+	$pad-right-container
+	$pad-bottom-container
+	$pad-left-container
+	;
+	margin:
+	$margin-top-container
+	$margin-right-container
+	$margin-bottom-container
+	$margin-left-container
+	;
+}
+
+.list-inline {
+	display:block;
+}
+
+.list-inline li{
+	display:inline-block;
+}
+//Css for the position of the elements in the footer ends
+
+@for $i from 1 through 9 {
+	.item-#{$i} {
+		grid-area:$grid-area-name-item#{$i};
+	}
+}

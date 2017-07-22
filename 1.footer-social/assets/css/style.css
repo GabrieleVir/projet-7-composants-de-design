@@ -1,0 +1,55 @@
+.container {
+	background-color: #F7F5E6;
+}
+
+.small_copyright {
+    display: block;
+    padding-left: 20px;
+	font-size: 14px;
+    padding-top: 5px;
+    padding-left: 35px;
+    color:grey;
+}
+
+.term_list {
+    padding-left: 175px;
+    font-size: 12px;
+    color:grey;
+}
+
+/*espace between terms*/
+.term1 {
+	padding-right: 7px;
+}
+
+.term2 {
+	padding-right: 4px;
+}
+/*espace between terms ends*/
+
+
+/*ajusting the padding top for matching*/
+.terms {
+	padding-top: 26px;
+}
+
+/*Ajusting social padding top for matching with layout*/
+.social {
+    padding-top: 24px;
+}
+
+/*espace between socials*/
+.social1 {
+	padding-left: 24px;
+    padding-right: 15px;
+}
+
+.social2 {
+    padding-right: 15px;
+}
+
+.social3 {
+   padding-right: 13px;
+}
+/*espace between socials ends*/
+

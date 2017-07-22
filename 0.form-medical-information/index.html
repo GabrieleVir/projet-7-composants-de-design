@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Emergency Contact</title>
+
+	<!-- css links-->
+	<link rel="stylesheet" type="text/css" href="assets/css/main.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+	<!--font-->
+	<link href="https://fonts.googleapis.com/css?family=Hind" rel="stylesheet">
+</head>
+<body>
+	<section class="container">
+		<div class="grid">
+			<h1 class="title">Emergency Contact and Medical Information </h1>
+			<hr class="bar">
+			<form action="" method="POST" class="form-layout">
+
+			<!--first part form -->
+			<div class="col-1-1 height_name_div">
+				<div class="col-1-2">
+					<!-- paragraphe non nécessaire, j'aurais du utiliser display block dans le label-->
+					<p class="label_paragraph">
+						<label for="name" class="name">
+							Name <br/>
+						</label>
+					</p>
+					<div class="col-1-2 reduce_width">
+						<input type="text" id="name" class="little_inputs-2 reduce_input">
+						<p class="reduce_font">
+							First
+						</p>
+						</label>
+					</div>
+					<div class="col-1-2">
+						<input type="text" id="last" class="little_inputs_last-2 reduce_input-2">	
+						<p class="reduce_font">
+							Last
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-1-2 change_width">
+				<p class="placement">	
+					<label for="gender" class="label_placement">
+						Gender<br/>	
+					</label>	
+				</p>
+					<select id="gender" class="big_select resize_select reform_select">
+						<option value="Male">Male</option>
+						<option value="Female">Female</option>
+						<option value="X">X</option>
+					</select>
+			</div>
+			<div class="col-1-2">
+				<label for="date_of_birth" class="label_placement placement date_label">
+				Date of Birth
+				</label>
+					<div class="col-1-4 width_date1">
+						<input type="text" maxlength="2" class="little_inputs-1 resize_date1">
+						<p class="date_paragraph1">MM</p>
+					</div>
+					<span class="slash1">/</span>
+					<div class="col-1-4 width_date2">
+						<input type="text" maxlength="2" class="little_inputs-1 resize_date2">
+						<p class="date_paragraph2">DD</p>
+					</div>
+					<span class="slash2">/</span>
+					<div class="col-1-4 width_date">
+						<input type="text" maxlength="4" class="little_inputs_last-1 resize_last">
+						<p class="date_paragraph3">YYYY</p>
+					</div>
+				
+			</div>
+		</div>
+			<!--first part form ends-->
+
+			<!--second part form -->
+			<div class="grid emergency">
+				<div class="col-1-1 h2_height">
+					<h2 class="h2_title">Emergency Contact </h2><br/>
+				</div>	
+				<div class="col-1-2 resize_emergency">
+					<p class="label_paragraph">
+						<label for="name2" class="name">
+							Name <br/>
+						</label>
+					</p>
+					<div class="col-1-2 reduce_width">
+						<input type="text" id="name2" class="little_inputs-2 reduce_input2">
+						<p class="reduce_font1">
+							First
+						</p>
+						</label>
+					</div>
+					<div class="col-1-2 ">
+						<input type="text" id="last" class="little_inputs_last-2 reduce_input2-2">	
+						<p class="reduce_font2">
+							Last
+						</p>
+					</div>
+				</div>
+				<div class="col-1-2 width_resize_1-2">
+					<p class="relationship_size">
+						<label for="relationship" class="bold_label relationship ">Relationship
+						</label>
+					</p>
+					<input type="text" id="relationship" class="relationship">
+					
+				</div>
+				<div class="col-1-1 width_resize_1-1">				
+					<p class="address_size">
+						<label for="address" class="bold_label">
+						Address<br/>
+						</label>
+					</p>
+					<input type="text" class="inputs_width-1">	
+				</div>	
+				<div class="col-1-1 width_resize_1-1">
+					<label for="street" class="slim_label input_position1">
+					Street Address<br/>
+					</label>
+					<input type="text" class="inputs_width-1">
+				</div>
+				<div class="col-1-1 width_resize_1-1">
+					<label for="address_line" class="slim_label input_position2">
+					Address Line 2
+					</label>
+				</div>
+				<div class="col-1-2 width_resize_1-2 width_resize_1-2">
+						<input type="text" id="city" class="inputs_width-2"><br/>
+
+					<label for="city" class="slim_label city_placement">
+					City					
+					</label>
+				</div>	
+				<div class="col-1-2 width_resize_1-2">
+						<input type="text" class="inputs_width-2"><br/>
+
+					<label for="state_pro_region" class="slim_label state_pro_region_placement">
+					
+					State/Province/Region
+					</label>
+				</div>
+				<div class="col-1-2 width_resize_1-2">
+					<input type="text" class="inputs_width-2"><br/>
+					<label for="postal" class="slim_label city_placement">
+						Postal / Zip code
+					</label>
+				</div>
+				<div class="col-1-2 width_resize_1-2">
+						<select id="country" class="big_select resize_select2">
+							<option value="country"></option>	
+						</select>
+					<br/>
+					<label for="country" class="slim_label country_placement">
+					Country
+					</label>
+				</div>
+				<div class="col-1-2 width_resize_1-2 ">
+					<label for="home_phone" class="phone_home_layout" >
+					Home Phone<br/>
+					</label>
+					<div class="col-1-4 width_number1">
+						<input type="text" maxlength="3" class="little_inputs-1 resize_number1">
+						<p class="number_paragraph1">###</p>
+					</div>
+					<span class="hyphey1">-</span>
+					<div class="col-1-4 width_number2">
+						<input type="text" maxlength="3" class="little_inputs-1 resize_number2">
+						<p class="number_paragraph2">###</p>
+					</div>
+					<span class="hyphey2">-</span>
+					<div class="col-1-4 width_number">
+						<input type="text" maxlength="4" class="little_inputs_last-1 resize_last_number">
+						<p class="number_paragraph3">####</p>
+					</div>
+				</div>
+				<div class="col-1-2 width_resize_1-2">
+					<label for="work_phone" class="phone_home_layout">
+					Work Phone<br/>
+					</label>
+					<div class="col-1-4 width_date1">
+						<input type="text" maxlength="3" class="little_inputs-1 resize_number1">
+						<p class="number_paragraph1">###</p>
+					</div>
+					<span class="hyphey1">-</span>
+					<div class="col-1-4 width_number2">
+						<input type="text" maxlength="3" class="little_inputs-1 resize_number2">
+						<p class="number_paragraph2">###</p>
+					</div>
+					<span class="hyphey2">-</span>
+					<div class="col-1-4 width_number">
+						<input type="text" maxlength="4" class="little_inputs_last-1 resize_last_number">
+						<p class="number_paragraph3 number_paragraph3_special">####</p>
+					</div>
+				</div>
+				</div>
+			</div>
+			<!--second part form -->
+
+			<!--final part form-->
+			<div class="grid medical_information">
+				<div class="col-1-1 h2_height">
+					<h2 class="h2_title h2_position">Medical Information</h2>
+				</div>
+				<div class="col-1-1">
+					<label for="hospital_clinic_pref" class="hospital_clinic_pref bold_label2">
+					Hospital / Clinic Preference<br/>
+					</label>
+					<input type="text" class="inputs_width-final_part-1">
+				</div>
+				<div class="col-1-2 reposition">
+					<label for="insurance_company" class="bold_label2">
+					Insurance Company<br/>
+					</label>
+					<input type="text" class="inputs_width-final_part-2">
+				</div>
+				<div class="col-1-2 reposition">
+					<label for="policy_number" class="bold_label2">
+					Policy Number<br/>
+					</label>
+					<input type="text" class="inputs_width-final_part-2">
+				</div>
+				<div class="col-1-2 reposition">
+					<label for="physicians_name" class="bold_label2">
+					Physicians Name<br/>
+					</label>
+					<input type="text" class="inputs_width-final_part-2">
+				</div>
+				<div class="col-1-2 reposition width_resize_1-2">
+					<label for="home_phone" class="phone_home_layout bold_label2" >
+					Home Phone<br/>
+					</label>
+					<div class="col-1-4 width_number1">
+						<input type="text" maxlength="3" class="little_inputs-1 resize_number1">
+						<p class="number_paragraph1">###</p>
+					</div>
+					<span class="hyphey1">-</span>
+					<div class="col-1-4 width_number2">
+						<input type="text" maxlength="3" class="little_inputs-1 resize_number2">
+						<p class="number_paragraph2">###</p>
+					</div>
+					<span class="hyphey2">-</span>
+					<div class="col-1-4 width_number">
+						<input type="text" maxlength="4" class="little_inputs_last-1 resize_last_number">
+						<p class="number_paragraph3">####</p>
+					</div>
+				</div>
+				<div class="col-1-1">	
+					<label for="allergies" class="bold_label2">Allergies / Special Health Considerations
+						<textarea type="textarea" class="text_area_width text_area" rows="6"; cols="25"></textarea>
+					</label>
+				</div>
+				<!--final part form ends-->
+
+				<input type="submit" name="submit" class="submit">
+			</div>
+		</form>	
+	</section>
+</body>
+</html>

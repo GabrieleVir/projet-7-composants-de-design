@@ -1,0 +1,127 @@
+//variables for widths
+$width-container:100%;
+$width-column-1: 69px;
+$width-column-2: 69px;
+$width-column-3: 69px;
+$width-column-4: 69px;
+$width-column-5: 69px;
+$width-column-6: 69px;
+$width-column-7: 69px;
+$width-column-8: 69px;
+$width-column-9: 69px;
+$width-column-10: 0%;
+$width-column-11: 0%;
+$width-column-12: 0%;
+$width-column-13: 0%;
+$width-column-14: 0%;
+$width-column-15: 0%;
+$width-column-16: 0%;
+
+//gutter
+$grid-gutter:13px;
+
+//variables for heights
+$height-container:92px;
+
+//variables for padding
+$pad-top-container: 0px;
+$pad-right-container: 0px;
+$pad-bottom-container: 30px;
+$pad-left-container: 0px;
+
+//variables for margin
+$margin-top-container:-3px;
+$margin-left-container: 210px;
+$margin-bottom-container: 0px;
+$margin-right-container: 226px;
+
+
+
+//variables for grid-area-name
+$grid-area-name-item:item;
+
+
+//background-color 
+$background-color-body: white;
+$background-color-container: #E4E4E4;
+
+//For the grid-template-areas 
+.container {
+	grid-template-areas: 
+	"item1 item2 item3 item4 item5 item6 item7 item8 item9 . . . . . . ."
+	;
+}
+//grid-template-areas ends
+
+
+*{
+	//outline: 1px dotted black;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+	box-sizing: border-box;
+
+}
+
+body {
+	display:grid;
+	grid-template-columns:$width-container;
+	grid-template-areas:"container";
+	//margin top just for clarity
+	margin-top: 100px;
+	overflow-x:hidden;
+}
+
+.container {
+	display:grid;
+	grid-template-columns: 
+		$width-column-1
+		$width-column-2
+		$width-column-3
+		$width-column-4
+		$width-column-5
+		$width-column-6
+		$width-column-7
+		$width-column-8
+		$width-column-9
+		$width-column-10
+		$width-column-11
+		$width-column-12
+		$width-column-13
+		$width-column-14
+		$width-column-15
+		$width-column-16
+	;
+	grid-template-rows:auto;
+	grid-gap:$grid-gutter;
+	font-family: 'Armata', sans-serif;
+	background-color: $background-color-container;
+	grid-area:container;
+	height: $height-container;
+	padding:
+	$pad-top-container
+	$pad-right-container
+	$pad-bottom-container
+	$pad-left-container
+	;
+	margin:
+	$margin-top-container
+	$margin-right-container
+	$margin-bottom-container
+	$margin-left-container
+	;
+}
+
+.list-inline {
+	display:block;
+}
+
+.list-inline li{
+	display:inline-block;
+}
+//Css for the position of the elements in the footer ends
+
+@for $i from 1 through 9 {
+	.item-#{$i} {
+		grid-area:$grid-area-name-item#{$i};
+	}
+}

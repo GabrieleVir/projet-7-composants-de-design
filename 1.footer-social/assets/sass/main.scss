@@ -1,0 +1,81 @@
+//Css for the general position for the footer start
+
+$pad-left: 0px;
+$pad-right: 0px;
+$pad-bottom: 30px;
+$pad-top: 20px;
+
+
+// *{
+// 	outline: 1px dotted black;
+
+// }
+
+body {
+	display:grid;
+	grid-template-columns:100%;
+	grid-template-areas:"container";
+	//margin top just for clarity
+	margin-top: 100px;
+	overflow-x:hidden;
+}
+
+.container {
+	display:grid;
+	grid-template-columns: 25% 35% 27% 13%;
+	grid-template-rows:100%;
+	grid-template-areas: "copyright . terms social";
+	font-family: 'Armata', sans-serif;
+	background-color: #EfEFEF;
+	grid-area:container;
+	height: 60px;
+	overflow-x:hidden;
+}
+
+
+
+.copyright {
+	grid-area:copyright;
+	padding: $pad-top $pad-right $pad-bottom $pad-left;
+}
+
+.social {
+	grid-area:social;
+	padding: $pad-top $pad-right $pad-bottom $pad-left;
+}
+
+.terms {
+	grid-area:terms;
+	padding: $pad-top $pad-right $pad-bottom $pad-left;
+}
+//Css for the general position of the page ends
+
+//Css for the position of the elements in the footer start
+.list-social {
+	display: grid;
+	grid-template-columns: 25% 25% 25% 25%;
+	grid-template-rows:100%;
+	grid-template-areas: "social1 social2 social3 social4";
+}
+
+@for $i from 1 through 4 {
+	.social#{$i} {
+		grid-area:social#{$i};
+	}
+}
+
+@for $u from 1 through 3 {
+	.term#{$u} {
+		grid-area:term#{$u};
+		margin-right: 10px;
+	}
+}
+
+.list-inline {
+	display:block;
+}
+
+.list-inline li{
+	display:inline-block;
+}
+//Css for the position of the elements in the footer ends

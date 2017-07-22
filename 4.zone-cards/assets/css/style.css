@@ -1,0 +1,60 @@
+/*css for the first row*/
+.h1-lesson {
+    font-size: 26px;
+    font-weight: 600;
+    margin-top: 18px;
+    margin-left: -2px;
+}
+
+.more-content {
+	font-size: 15px;
+    font-weight: 500;
+    margin-top: 28px;
+    margin-left: 150px;
+    display: block;
+}
+
+.little-arrow {
+    width: 11px;
+}
+
+.little-arrow-position {
+    margin-left: -26px;
+    margin-top: 24px;
+}
+/*css for the first row*/
+
+/*css for the second row*/
+.arrow-position {
+    margin-top: 165px;
+    margin-left: -8px;
+}
+
+.price {
+	font-weight: 800;
+    margin-right: 3px;
+}
+
+.img-lesson {
+    height: 290px;
+	width: 100%;
+}
+
+.paragraph-lesson {
+	margin-top: 6px;
+	margin-left: -2px;
+	font-size: 15px;
+}
+
+/*position of stars*/
+.stars-1 {margin-left: -1px;margin-top: 11px;}
+.stars-2 {margin-left: -3px;margin-top: 12px;}
+.stars-3 {margin-left: -2px;margin-top: 10px;}
+.stars-4 {margin-left: -1px;margin-top: 11px;}
+.stars-5 {margin-left: -1px;margin-top: 9px;}
+/*position of stars ends*/
+
+/*css for the second row ends*/
+
+
+

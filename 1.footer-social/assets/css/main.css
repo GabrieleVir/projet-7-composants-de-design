@@ -1,0 +1,67 @@
+body {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-areas: "container";
+  margin-top: 100px;
+  overflow-x: hidden; }
+
+.container {
+  display: grid;
+  grid-template-columns: 25% 35% 27% 13%;
+  grid-template-rows: 100%;
+  grid-template-areas: "copyright . terms social";
+  font-family: 'Armata', sans-serif;
+  background-color: #EfEFEF;
+  grid-area: container;
+  height: 60px;
+  overflow-x: hidden; }
+
+.copyright {
+  grid-area: copyright;
+  padding: 20px 0px 30px 0px; }
+
+.social {
+  grid-area: social;
+  padding: 20px 0px 30px 0px; }
+
+.terms {
+  grid-area: terms;
+  padding: 20px 0px 30px 0px; }
+
+.list-social {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 100%;
+  grid-template-areas: "social1 social2 social3 social4"; }
+
+.social1 {
+  grid-area: social1; }
+
+.social2 {
+  grid-area: social2; }
+
+.social3 {
+  grid-area: social3; }
+
+.social4 {
+  grid-area: social4; }
+
+.term1 {
+  grid-area: term1;
+  margin-right: 10px; }
+
+.term2 {
+  grid-area: term2;
+  margin-right: 10px; }
+
+.term3 {
+  grid-area: term3;
+  margin-right: 10px; }
+
+.list-inline {
+  display: block; }
+
+.list-inline li {
+  display: inline-block; }
+
+/*# sourceMappingURL=main.css.map */

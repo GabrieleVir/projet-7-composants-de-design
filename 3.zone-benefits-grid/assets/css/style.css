@@ -1,0 +1,96 @@
+/*position of logos*/
+.logo1 {
+    margin-left: 68px;
+    margin-top: 33px;
+}
+
+.logo2 {
+    margin-left: 61px;
+    margin-top: 23px;
+}
+
+.logo3 {
+    margin-left: 36px;
+    margin-top: 24px;
+}
+
+.logo4 {
+    margin-left: 27px;	
+    margin-top: 23px;
+}
+/*position of logos ends*/
+
+/*h2 color and font-size*/
+.h2-layout {
+	color:#6DC988;
+    font-size: 24px;
+}
+/*h2 color and font-size ends*/
+
+/*paragraphs font-size*/
+.description-plugin-layout {
+	font-size: 16px;
+    line-height: 1.5;
+	color:#464646;
+}
+/*paragraphs font-size ends*/
+
+/*font-family for the spans*/
+span {font-family: Consolas,monospace}
+/*font-family for the spans ends*/
+
+/*padding-left for paragraphs and h2*/
+.padding-grunt {
+    padding-left: 38px;
+}
+
+.padding-gulp {
+	padding-left: 24px;
+}
+
+.padding-git {
+	padding-left: 13px;
+}
+
+.padding-npm {
+    padding-left: 3px
+}
+/*padding-left for paragraphs and h2 ends*/
+
+
+/*position of h2*/
+.h2-grunt-position {
+	margin-top: 27px;
+	
+}
+
+.h2-gulp-position {
+    margin-top: 14px;
+}
+
+.h2-git-position {
+    margin-top: 28px;
+}
+
+.h2-npm-position {
+	margin-top: 38px;
+}
+/*position of h2 ends*/
+
+/*position of paragraphs*/
+.paragraph-grunt-position {
+    margin-top: 14px;
+}
+
+.paragraph-gulp-position {
+	margin-top: 16px;
+}
+
+.paragraph-git-position {
+	margin-top: 14px;
+}
+
+.paragraph-npm-position {
+	margin-top: 16px;
+}
+/*position of paragraphs ends*/
