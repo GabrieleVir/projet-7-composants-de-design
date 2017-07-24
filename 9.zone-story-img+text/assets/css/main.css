@@ -1,8 +1,7 @@
 .container {
-  grid-template-areas: "item1 . . . . . . . . . . . . . . ." "item2 . . . . . . . . . . . . . . ." "item3 . . . . . . . . . . . . . . ."; }
+  grid-template-areas: "item1 item2 . . . . . . . . . . . . . ."; }
 
 * {
-  /*outline: 1px dotted black;*/
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
@@ -16,8 +15,8 @@ body {
 
 .container {
   display: grid;
-  grid-template-columns: 100% 0px 0px 0px 0px 0px 0% 0% 0% 0% 0% 0% 0% 0% 0% 0%;
-  grid-template-rows: 85px 70px 0px 0px 0px 0px 0px 0px 0px 0px;
+  grid-template-columns: 50% 50% 0px 0px 0px 0px 0% 0% 0% 0% 0% 0% 0% 0% 0% 0%;
+  grid-template-rows: 32px 28px 94px 95px 0px 0px 0px 0px 0px 0px;
   grid-gap: 0px;
   font-family: 'Armata', sans-serif;
   background-color: white;
@@ -58,5 +57,8 @@ body {
 
 .item-9 {
   grid-area: item9; }
+
+.item-10 {
+  grid-area: item10; }
 
 /*# sourceMappingURL=main.css.map */

@@ -1,0 +1,104 @@
+.container {
+    margin-left: 72px;
+}
+
+
+/*css for the arrow next to MORE */
+.little-arrow {
+    width: 10px;
+}
+/*css for the arrow next to MORE ends*/
+
+/*css for all the avatars*/
+.avatars-frame {
+	width:40px;
+	height: 40px;
+}
+/*css for all the avatars ends*/
+
+/*first row css*/
+.new-network-title {
+	font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0.8px;	
+}
+
+.underline-title {
+    width: 216px;
+    height: 1px;
+    border: none;
+    background-color: black;
+    display: block;
+    margin-bottom: 26px;
+    position: relative;
+    top: -10px;
+    left: -431px;
+}
+
+.big-line {
+	width:937px;
+}
+
+.more-content {
+	position: relative;
+    top: -2px;
+    display: inline-block;
+    margin-left: 381px;
+    font-size: 14px;
+    letter-spacing: 0px;
+}
+
+.arrow-position {
+    position: relative;
+    margin-left: -29px;
+    top: -7px;
+}
+/*first row css ends*/
+
+/*news network css*/
+
+/*css for elements of both columns*/
+.title-article-users {
+    font-weight: 600;
+    font-size: 14px;
+    margin-left: 1px;
+    margin-top: 7px;
+}
+
+.avatars-frame {
+    width: 42px;
+    height: 51px;
+    margin-top: 4px;
+    text-align: center;
+    display: inline-block;
+}
+
+.pseudo {
+    display: inline-block;
+    margin-left: 3px;
+    position: relative;
+    top: -31px;
+    font-size: 13px;
+    letter-spacing: -0.2px;}
+
+.date-time {
+	display: inline-block;
+    position: relative;
+    left: 51px;
+    top: -29px;
+    font-size: 13px;
+    color:#919092;
+}
+/*css for elements of both columns ends*/
+
+/*css for elements of right column*/
+.right-side {
+	margin-left: -63px;
+}
+
+.repositionnement-avatar {
+    padding-left: 2px;
+}
+/*css for elements of right column ends*/
+
+/*news network css ends*/

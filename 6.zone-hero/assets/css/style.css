@@ -1,0 +1,35 @@
+.img-position {
+    margin-top: -51px;
+}
+
+.text-left-side-img-position {
+    padding-left: 174px;
+    padding-top: 66px;
+}
+
+.title-motivational-layout {
+    font-size: 42px;
+    line-height: 1.15;
+    letter-spacing: 2px;
+	margin-bottom: 18px;
+}
+
+.paragraph-accrocheur {
+	line-height: 1.6;
+    margin-left: -3px;
+    margin-bottom: 7px;
+	letter-spacing: 0.6px;
+}
+
+.cta-appointment {
+    background-color: #DBCC00;
+    margin-top: 16px;
+    border: none;
+    border-radius: 3px;
+    height: 64px;
+    width: 217px;
+    font-size: 17px;
+    padding-top: 5px;
+    padding-right: 10px;
+	letter-spacing: 0.2px;
+}

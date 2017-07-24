@@ -2,110 +2,24 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Emergency Contact</title>
+	<title>Zone-hero</title>
+
+	<!--css links-->
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/main.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<!--css links ends-->
 </head>
 <body>
-
-	<h1>Emergency Contact and Medical Information </h1>
-	<form action="" method="POST" class="form-layout">
-
-		<!--first part form -->
-		<label for="name">
-		Name 
-			<label for="name" class="grey_text">First<input type="text" id="name"></label>
-			<label for="last" class="grey_text">Last<input type="text" id="last"></label>
-		</label>
-
-		<!--separator-->
-		
-		<label for="gender">
-		Gender		
-			<select id="gender">
-				<option value="Male">Male</option>
-				<option value="Female">Female</option>
-				<option value="X">X</option>
-			</select>
-		</label>
-		<label for="date_of_birth">Date of Birth<input type="date"></label>
-		<!--first part form ends-->
-
-		<!--second part form -->
-		<h2>Emergency Contact </h2>
-			<div>
-				<label for="name2">
-				Name
-					<label for="name2" class="grey_text">First<input type="text" id="name2"></label>
-					<label for="last" class="grey_text">Last<input type="text" id="last"></label>
-				</label>
-			</div>
-			<div>
-				<label for="relationship">Relationship
-					<input type="text" id="relationship">
-				</label>
-			</div>
-			<label for="address">
-			Address
-				<input type="text">
-			</label>
-			
-			<label for="street">
-			Street Address
-				<input type="text">
-			</label>
-			
-			<label for="address_line">
-			Address Line 2
-				<input type="text">
-				<input type="text">
-			</label>
-			<label for="city">
-			City
-				<input type="text">
-			</label>
-			
-			<label for="state_pro_region">
-				<input type="text">
-			
-			State/Province/Region
-			</label>
-			
-			<label for="country">
-			Country
-				<select>
-					<option value="country">Select a country</option>	
-				</select>
-			</label>
-			<label for="home_phone">Home Phone
-				<input type="text">
-				<input type="text">
-				<input type="text">
-			</label>
-			<label for="work_phone">
-			Work Phone
-				<input type="text">
-				<input type="text">
-				<input type="text">
-			</label>
-		<!--second part form -->
-
-		<!--final part form-->
-		<h2>Medical Information</h2>
-			<label for="hospital_clinic_pref">Hospital / Clinic Preference
-				<input type="text">
-			</label>
-			<label for="insurance_company">Insurance Company<input type="text"></label>
-			<label for="policy_number">Policy Number<input type="text"></label>
-			<label for="physicians_name">Physicians Name<input type="text"></label>
-			<label for="phone_number">Phone Number
-				<input type="text">
-				<input type="text">
-				<input type="text"></label>
-			<label for="allergies">Allergies / Special Health Considerations
-				<input type="text">
-			</label>
-		<!--final part form ends-->
-
-		<input type="submit" name="submit" class="submit">
-	</form>	
+	<article class="container">
+		<div class="item-1 text-left-side-img-position">
+			<h1 class="title-motivational-layout">We're waiting <br/>for you!</h1>
+			<p class="paragraph-accrocheur">All parents looking for high quality education in the<br/> heart of Brussels are encouraged to meet the<br/> Headteacher for a tour of the school.</p>
+			<button class="cta-appointment">Make an appointment</button>
+		</div>
+		<div class="item-2 img-position">
+			<img src="assets/img/hero-image.jpg" alt="">
+		</div>
+	</article>
 </body>
 </html>

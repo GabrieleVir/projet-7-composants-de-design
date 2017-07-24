@@ -1,0 +1,29 @@
+/*css for first column*/
+.position-text-first-column {
+    padding-top: 95px;
+    padding-left: 193px;
+}
+
+.title-offer {
+    font-size: 27px;
+    font-weight: 600;
+}
+
+.how-to-get-offer-paragraph {
+    margin-top: 14px;
+    line-height: 1.4;
+    font-size: 18px;
+    letter-spacing: 0.2px;
+}
+
+.cta-offer {
+    border: none;
+    background-color: #3C8188;
+    width: 321px;
+    margin-top: 12px;
+    height: 35px;
+    border-radius: 3px;
+    font-size: 15px;
+    color: #FFFFFF;
+}
+/*css for first column ends*/
