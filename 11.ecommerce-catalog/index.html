@@ -2,110 +2,94 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Emergency Contact</title>
+	<title>Ecommerce-catalog</title>
+
+	<!--css links-->
+	<link rel="stylesheet" href="assets/css/reset.css">
+	<link rel="stylesheet" href="assets/css/main.css">
+	<link rel="stylesheet" href="assets/css/style.css">
+	<!--css links ends-->
+
 </head>
 <body>
-
-	<h1>Emergency Contact and Medical Information </h1>
-	<form action="" method="POST" class="form-layout">
-
-		<!--first part form -->
-		<label for="name">
-		Name 
-			<label for="name" class="grey_text">First<input type="text" id="name"></label>
-			<label for="last" class="grey_text">Last<input type="text" id="last"></label>
-		</label>
-
-		<!--separator-->
-		
-		<label for="gender">
-		Gender		
-			<select id="gender">
-				<option value="Male">Male</option>
-				<option value="Female">Female</option>
-				<option value="X">X</option>
-			</select>
-		</label>
-		<label for="date_of_birth">Date of Birth<input type="date"></label>
-		<!--first part form ends-->
-
-		<!--second part form -->
-		<h2>Emergency Contact </h2>
-			<div>
-				<label for="name2">
-				Name
-					<label for="name2" class="grey_text">First<input type="text" id="name2"></label>
-					<label for="last" class="grey_text">Last<input type="text" id="last"></label>
-				</label>
+	<section class="container">
+		<div class="item-1">
+			<ul class="list-inline">
+				<li class="fnac-deal-layout">FNAC DEAL</li>
+				<li class="discount-amount red-color-price">-30 €</li>
+			</ul>
+			<img src="assets/img/products-img/product-1.png" alt="Canon pixma" class="product size-img img-position">
+			<div class="text-padding">
+				<h2 class="title-product">Canon Pixma TS6050 WiFi AIO</h2>
+				<p class="mini-description-product">Multifunctionele printer - Canon</p>
+				<ul class="list-inline">
+					<li class="price-after-deal-product red-color-price">108<span class="cents">€95</span></li>
+					<li class="price-before-deal-product line-through">138<span class="cents line-through">€95</span></li>
+				</ul>
+				<p class="meer-aanbiedingen">Meer aanbiedingen vanaf <span class="red-color-price">108<span class="cents">€95</span></p>
 			</div>
-			<div>
-				<label for="relationship">Relationship
-					<input type="text" id="relationship">
-				</label>
+		</div>
+		<div class="item-2">
+			<ul class="list-inline">
+				<li class="fnac-deal-layout">FNAC DEAL</li>
+				<li class="discount-amount red-color-price">-70 €</li>
+			</ul>
+
+			<!--for the circle with three lines-->
+			<div class="circle">
+				<div class="lines"></div>
+				<div class="lines"></div>
+				<div class="lines"></div>
 			</div>
-			<label for="address">
-			Address
-				<input type="text">
-			</label>
+			<!---->
 			
-			<label for="street">
-			Street Address
-				<input type="text">
-			</label>
-			
-			<label for="address_line">
-			Address Line 2
-				<input type="text">
-				<input type="text">
-			</label>
-			<label for="city">
-			City
-				<input type="text">
-			</label>
-			
-			<label for="state_pro_region">
-				<input type="text">
-			
-			State/Province/Region
-			</label>
-			
-			<label for="country">
-			Country
-				<select>
-					<option value="country">Select a country</option>	
-				</select>
-			</label>
-			<label for="home_phone">Home Phone
-				<input type="text">
-				<input type="text">
-				<input type="text">
-			</label>
-			<label for="work_phone">
-			Work Phone
-				<input type="text">
-				<input type="text">
-				<input type="text">
-			</label>
-		<!--second part form -->
-
-		<!--final part form-->
-		<h2>Medical Information</h2>
-			<label for="hospital_clinic_pref">Hospital / Clinic Preference
-				<input type="text">
-			</label>
-			<label for="insurance_company">Insurance Company<input type="text"></label>
-			<label for="policy_number">Policy Number<input type="text"></label>
-			<label for="physicians_name">Physicians Name<input type="text"></label>
-			<label for="phone_number">Phone Number
-				<input type="text">
-				<input type="text">
-				<input type="text"></label>
-			<label for="allergies">Allergies / Special Health Considerations
-				<input type="text">
-			</label>
-		<!--final part form ends-->
-
-		<input type="submit" name="submit" class="submit">
-	</form>	
+			<img src="assets/img/products-img/product-2.png" alt="Apple tablet" class="product size-img img-position">
+			<div class="text-padding">
+				<h2 class="title-product">Apple iPad Air 2.9.7"128 GB WiFi Silver</h2>
+				<p class="mini-description-product">Touch Tabler - Apple</p>
+				<ul class="list-inline">
+					<li class="price-after-deal-product red-color-price">479 €<span class="cents"></span></li>
+					<li class="price-before-deal-product line-through">549 €<span class="cents line-through"></span></li>
+				</ul>
+				<p class="meer-aanbiedingen">Meer aanbiedingen vanaf <span class="red-color-price">479 €<span class="cents"></span></p>
+			</div>
+			<div class="yellow-button">
+				<p class="text-yellow-button"><img src="assets/img/symbol-yellow-button.png" alt="minibag" class="mini-bag">Toevoegen aan winkelmand</p>
+			</div>
+		</div>
+		<div class="item-3">
+			<ul class="list-inline">
+				<li class="fnac-deal-layout">FNAC DEAL</li>
+				<li class="discount-amount red-color-price">-35 €</li>
+			</ul>
+			<img src="assets/img/products-img/product-3.png" alt="Mybook PRO " class="product size-img img-position">
+			<div class="text-padding">
+				<h2 class="title-product">WD FND MY BOOK PRO 6 TO</h2>
+				<p class="mini-description-product">Netwerk harde schrijf - Western digital</p>
+				<ul class="list-inline">
+					<li class="price-after-deal-product red-color-price">665 €<span class="cents"></span></li>
+					<li class="price-before-deal-product line-through">700 €<span class="cents line-through"></span></li>
+				</ul>
+				<p class="meer-aanbiedingen">Meer aanbiedingen vanaf <span class="red-color-price">665 €<span class="cents"></span></p>
+				<div class="timeline"><img src="assets/img/timeline.png" alt=""></div>
+			</div>
+		</div>
+		<div class="item-4">
+			<ul class="list-inline">
+				<li class="fnac-deal-layout">FNAC DEAL</li>
+				<li class="discount-amount red-color-price">-50 €</li>
+			</ul>
+			<img src="assets/img/products-img/product-4.png" alt="Huawei Mediapad M2" class="product size-img img-position">
+			<div class="text-padding">
+				<h2 class="title-product">HUAWEI MEDIAPAD M2 10 16GO SILVER</h2>
+				<p class="mini-description-product">Touch Tablet - Huawei</p>
+				<ul class="list-inline">
+					<li class="price-after-deal-product red-color-price">299 €<span class="cents"></span></li>
+					<li class="price-before-deal-product line-through">349 €<span class="cents line-through"></span></li>
+				</ul>
+				<p class="meer-aanbiedingen">Meer aanbiedingen vanaf <span class="red-color-price">299 €<span class="cents"></span></p>
+			</div>
+		</div>
+	</section>
 </body>
 </html>
